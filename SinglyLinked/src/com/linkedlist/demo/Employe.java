@@ -1,7 +1,7 @@
 package com.linkedlist.demo;
 
 public class Employe {
-	
+	private String nameS;
 	private int id;
 	private String name;
 	
@@ -26,6 +26,12 @@ public class Employe {
 	@Override
 	public String toString() {
 		return "Employe -->id=" + id + ", name=" + name + "<--";
+	}
+	public String getNameS() {
+		return nameS;
+	}
+	public void setNameS(String nameS) {
+		this.nameS = nameS;
 	}
 
 	
